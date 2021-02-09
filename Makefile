@@ -5,4 +5,6 @@ lex.yy.c: scanner.l
 clean:
 	rm lex.yy.c etapa1
 run:
-	./etapa1 test_file
+	./etapa1 test_cases
+test:
+	./test.sh
