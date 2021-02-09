@@ -1,4 +1,3 @@
-#include "hash.h"
 #include "tokens.h"
 
 void initMe(void)
@@ -51,7 +50,6 @@ HASHNODE* hashInsert(int type, char *lit)
 
 void hashPrint()
 {
-	printf("HASHPRINT CALLED");
 	int i = 0;
 	HASHNODE *node;
 
