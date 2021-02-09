@@ -48,20 +48,20 @@ STRING "valid_string"
 STRING "auau"
 IDENT auau
 int
-STRING 'fhiauhfas'
-STRING 'valid_string'
-STRING 'int'
-STRING 'VARIABLE'
-STRING 'new_table'
-STRING 'newVariable123'
-STRING 'a123_diuhwqdqAASDwdqdCCC'
-STRING 'a___111111dnwjnduwiASDASC1'
-STRING '_valid_variable_name_'
+ERROR | Unexpected Token: ' ['fhiauhfas']
+ERROR | Unexpected Token: ' ['valid_string']
+ERROR | Unexpected Token: ' ['int']
+ERROR | Unexpected Token: ' ['VARIABLE']
+ERROR | Unexpected Token: ' ['new_table']
+ERROR | Unexpected Token: ' ['newVariable123']
+ERROR | Unexpected Token: ' ['a123_diuhwqdqAASDwdqdCCC']
+ERROR | Unexpected Token: ' ['a___111111dnwjnduwiASDASC1']
+ERROR | Unexpected Token: ' ['_valid_variable_name_']
 STRING "string with \" in the middle"
 STRING "feiuwhfiuwe\nheuifew"
 CHAR 'c'
 CHAR '5'
-STRING 'ss'
+ERROR | Unexpected Token: ' ['ss']
 INT 123
 INT 1
 INT 31273981
@@ -75,3 +75,4 @@ ERROR | Unexpected Token: ' ['d'c'd'b']
 ERROR | Unexpected Token: " ["a"b"c"d\""]
 ERROR | Unexpected Token: " ["string_finished_with\"]
 ERROR | Unexpected Token: ' ['string2_finished_with\']
+ERROR | Unexpected Token: ' [''']
