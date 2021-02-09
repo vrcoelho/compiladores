@@ -1,0 +1,77 @@
+SPECIAL: , [44]
+SPECIAL: ; [59]
+SPECIAL: : [58]
+SPECIAL: ( [40]
+SPECIAL: ) [41]
+SPECIAL: [ [91]
+SPECIAL: ] [93]
+SPECIAL: { [123]
+SPECIAL: } [125]
+SPECIAL: + [43]
+SPECIAL: - [45]
+SPECIAL: * [42]
+SPECIAL: / [47]
+SPECIAL: < [60]
+SPECIAL: > [62]
+SPECIAL: | [124]
+SPECIAL: & [38]
+SPECIAL: ~ [126]
+SPECIAL: $ [36]
+SPECIAL: # [35]
+char
+int
+bool
+pointer
+if
+then
+else
+while
+read
+print
+return
+true
+false
+LE(<=)
+GE(>=)
+EQ(==)
+DIF(!=)
+LEFT_ASSIGN(<-)
+RIGHT_ASSIGN(->)
+IDENT variable
+IDENT VARIABLE
+IDENT new_table
+IDENT newVariable123
+IDENT a123_diuhwqdqAASDwdqdCCC
+IDENT a___111111dnwjnduwiASDASC1
+IDENT _valid_variable_name_
+STRING "valid_string"
+STRING "auau"
+IDENT auau
+int
+STRING 'fhiauhfas'
+STRING 'valid_string'
+STRING 'int'
+STRING 'VARIABLE'
+STRING 'new_table'
+STRING 'newVariable123'
+STRING 'a123_diuhwqdqAASDwdqdCCC'
+STRING 'a___111111dnwjnduwiASDASC1'
+STRING '_valid_variable_name_'
+STRING "string with \" in the middle"
+STRING "feiuwhfiuwe\nheuifew"
+char
+char
+STRING 'ss'
+INT 123
+INT 1
+INT 31273981
+ERROR | Unexpected Token: 0 [0atb]
+ERROR | Unexpected Token: " ["asdads']
+ERROR | Unexpected Token: ' ['fjioewjfw"]
+ERROR | Unexpected Token: " ["djaisd"dsadas"]
+ERROR | Unexpected Token: ' ['fjoiwefew'fewfew']
+ERROR | Unexpected Token: " ["a"b"c"d""]
+ERROR | Unexpected Token: ' ['d'c'd'b']
+ERROR | Unexpected Token: " ["a"b"c"d\""]
+ERROR | Unexpected Token: " ["string_finished_with\"]
+ERROR | Unexpected Token: ' ['string2_finished_with\']
