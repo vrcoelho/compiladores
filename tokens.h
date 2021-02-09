@@ -7,6 +7,8 @@
  * valor ascii de caracteres isolados.
  */
 
+// 00243463 - Vanessa Coelho
+
 #define KW_CHAR       256
 #define KW_INT        257
 #define KW_BOOL       258

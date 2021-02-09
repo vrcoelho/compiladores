@@ -1,3 +1,5 @@
+// 00243463 - Vanessa Coelho
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
