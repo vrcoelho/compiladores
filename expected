@@ -59,8 +59,8 @@ STRING 'a___111111dnwjnduwiASDASC1'
 STRING '_valid_variable_name_'
 STRING "string with \" in the middle"
 STRING "feiuwhfiuwe\nheuifew"
-char
-char
+CHAR 'c'
+CHAR '5'
 STRING 'ss'
 INT 123
 INT 1
